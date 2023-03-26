@@ -52,50 +52,18 @@ Latitude vs. Wind Speed (Fig.4)
 
 
 ### 2. [VacationPy.ipynb](https://github.com/wangavin/python-api-challenges/blob/main/starter_code/GW_VacationPy.ipynb)
-Using hvplots.pandas the cities were plotted onto an OpenStreetMap tile:
+**Using hvplots.pandas the cities were plotted onto an OpenStreetMap tile:**
+
 All Sample Cities from cities.csv output. (Fig.13)
-Fig.13
-The list of cities was then filtered down based on a series of ideal meteorological values:
-A max temperature lower than 27 degrees but higher than 21
-Wind speed less than 4.5 m/s
-Zero cloudiness
-Using hvplots.pandas the filtered cities were plotted onto an OpenStreetMap tile. Functionality was included that allows the user to mouseover each city to see the name of the nearest hotel and the country name:
+![Screen Shot 2023-03-26 at 1 12 36 AM](https://user-images.githubusercontent.com/119981450/227756708-2eaca539-6a3d-48de-b974-db39880d1622.png)
+
+**The list of cities was then filtered down based on a series of ideal meteorological values:**
+* A max temperature lower than 27 degrees but higher than 21
+* Wind speed less than 4.5 m/s
+* Zero cloudiness
+
+**Using hvplots.pandas the filtered cities were plotted onto an OpenStreetMap tile. Functionality was included that allows the user to mouseover each city to see the name of the nearest hotel and the country name:**
+
 Ideal February Vacation Cities filtered from cities.csv output with Nearest Hotel Name. (Fig.14)
-Fig.14
-Repo File Contents
-README.md
-This Readme file.
-VacationPy.ipynb
-Jupyter notebook file. Generates city plot and filtered city/hotel plot.
-WeatherPy.ipynb
-Jupyter notebook file. Generates list of random cities, outputs into .csv file including: City_ID,City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
-cities.csv
-csv file containing output from WeatherPy.ipynb. Includes columns: City_ID,City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
-Fig1.png
-Latitude vs. Temperature Scatterplot
-Fig2.png
-Latitude vs. Humidity Scatterplot
-Fig3.png
-Latitude vs. Cloudiness Scatterplot
-Fig4.png
-Latitude vs. Wind Speed Scatterplot
-Fig5.png
-Northern Hemisphere Latitude vs. Temperature Scatterplot with Linear Regression
-Fig6.png
-Southern Hemisphere Latitude vs. Temperature Scatterplot with Linear Regression
-Fig7.png
-Northern Hemisphere Latitude vs. Humidity Scatterplot with Linear Regression
-Fig8.png
-Southern Hemisphere Latitude vs. Humidity Scatterplot with Linear Regression
-Fig9.png
-Northern Hemisphere Latitude vs. Cloudiness Scatterplot with Linear Regression
-Fig10.png
-Southern Hemisphere Latitude vs. Cloudiness Scatterplot with Linear Regression
-Fig11.png
-Northern Hemisphere Latitude vs. Wind Speed Scatterplot with Linear Regression
-Fig12.png
-Southern Hemisphere Latitude vs. Wind Speed Scatterplot with Linear Regression
-Fig13.png
-All Sample Cities from cities.csv output: using hvplots.pandas the cities were plotted onto an OpenStreetMap tile.
-Fig14.png
-.png file of hvplots.pandas with filtered cities plotted onto an OpenStreetMap tile. Functionality was included that allows the user to mouseover each city to see the name of the nearest hotel and the country name in Jupyter Notebook.
+![Screen Shot 2023-03-26 at 1 13 09 AM](https://user-images.githubusercontent.com/119981450/227756800-7264fd40-eaa9-4074-92dc-11a5a9144190.png)
+
